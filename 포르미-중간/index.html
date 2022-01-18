@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>포르미</title>
-
     <!-- css -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/slick.css">
@@ -16,16 +15,14 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
-    
 </head>
 <body>
-    <!-- util ->header ->gnb 순서로작업-->
-    <!-- 탑배너 -->
+    <!-- 탑 배너 -->
     <a href="#" class="top_banner"></a>
 
     <!-- 헤더 -->
     <header>
-        <!-- util (유틸 : 로그인/ 회원가입) -->
+        <!-- util (유틸 : 로그인/회원가입) -->
         <div id="top_util">
             <div class="wrap">
                 <div class="fleft">
@@ -65,34 +62,33 @@
                     </form>
                 </div>
             </div>
+
         </div>
 
         <!-- gnb (메뉴영역) -->
-        <div class="gnb_wrap">
-            <div class="gnb_wrap">
-                <div id="gnb" class="wrap">
-                    <!-- 왼쪽 메뉴 -->
-                    <ul class="gnb_left">
-                        <li id="category"><a href="#">전체메뉴</a></li>
-                        <li><a href="#">첫구매추천!</a></li>
-                        <li><a href="#">더포르미</a></li>
-                        <li><a href="#">반찬도시락</a></li>
-                        <li><a href="#">인생도시락</a></li>
-                        <li><a href="#"신애한끼></a></li>
-                    </ul>
-                    <!-- 오른쪽 메뉴 -->
-                    <ul class="gnb_right">
-                        <li><a href="#">기획전·이벤트</a></li>
-                        <li><a href="#">브랜드소개</a></li>
-                        <li><a href="#">리얼스토리</a></li>
-                        <li><a href="#" class="active">정기배송</a></li>
-                    </ul>
-                </div>
+        <div id="gnb_wrap">
+            <div id="gnb" class="wrap">
+                <!-- 왼쪽 메뉴 -->
+                <ul class="gnb_left">
+                    <li id="category"><a href="#">전체메뉴</a></li>
+                    <li><a href="#">첫구매추천!</a></li>
+                    <li><a href="#">더포르미</a></li>
+                    <li><a href="#">반칙도시락</a></li>
+                    <li><a href="#">인생도시락</a></li>
+                    <li><a href="#">신애한끼</a></li>
+                </ul>
+                <!-- 오른쪽 메뉴 -->
+                <ul class="gnb_right">
+                    <li><a href="#">기획전·이벤트</a></li>
+                    <li><a href="#">브랜드소개</a></li>
+                    <li><a href="#">리얼스토리</a></li>
+                    <li><a href="#" class="active">정기배송</a></li>
+                </ul>
             </div>
         </div>
     </header>
 
-    <!-- 섹션 시작 -->
+    <!-- 섹션 visual - 이미지 슬라이드 -->
     <section class="visual">
         <div class="slide-container">
             <div class="slide"><img src="img/rolling1920x550_5.jpg" alt=""></div>
@@ -102,7 +98,43 @@
             <div class="slide"><img src="img/rolling_banchik_1920x550.jpg" alt=""></div>
         </div>
     </section>
-    
+
+    <!-- 섹션 best -인기상품 -->
+    <section class="best wrap">
+        <div class="title">
+            <h2>BEST PRODUCT</h2>
+            <p>
+                <b>한 주간 가장 많이 팔린</b>
+                인기상품
+            </p>
+            <hr>
+        </div>
+        <div class="slide">
+            <div class="product-slide">
+                <!-- 아이템 -->
+                <div class="card">
+                    <!-- 이미지 영역 -->
+                    <div class="img-box">
+                        <img src="img/2728de26be97444969e07c6583208f04.jpg" alt="상품 이미지">
+                    </div>
+                    <!-- 내용 영역 -->
+                    <div class="info-box">
+                        <div class="product-title">
+                            <h2>상품이름</h2>
+                            <p>#일주일 #다이어트</p>
+                        </div>
+                        <div class="product-info">
+                            <span class="sale">50% SALE</span>
+                            <div class="price-box">
+                                <span class="price">50,000원</span>
+                                <span class="discount">25,000원</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 </html>
